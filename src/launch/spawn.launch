@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <param name="test_bot" command="cat '$(find test_bot)/src/model/model.sdf'" />
+    
+    <node name="test_bot_spawn" pkg="gazebo_ros" type="spawn_model" output="screen"
+          args="-sdf -param test_bot -model m2wr" />
+          
+</launch>
