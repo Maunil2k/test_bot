@@ -5,5 +5,8 @@
       <uri>model://ground_plane</uri>
     </include>
     <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
   </world>
 </sdf>
