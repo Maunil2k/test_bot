@@ -1,5 +1,5 @@
 # TEST BOT
-Contains Differential drive and Hokuyo sensor plugin
+A two wheeled + 1 castor wheel robot containing differential drive and hokuyo sensor plugin
 
 Run the following set of commands to use this package.Firstly, navigate to your catkin_ws
 1) cd ~/catkin_ws/src
